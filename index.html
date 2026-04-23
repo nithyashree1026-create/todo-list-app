@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="container">
+        <h1>✨ My To-Do List ✨</h1>
+
+        <div class="theme-box">
+            <label for="themeSelect">Choose Theme:</label>
+            <select id="themeSelect">
+                <option value="default">Default</option>
+                <option value="flower">Flower</option>
+                <option value="beach">Beach</option>
+                <option value="cycling">Cycling</option>
+                <option value="sunset">Sunset</option>
+                <option value="sunrise">Sunrise</option>
+                <option value="garden">Garden</option>
+                <option value="cafe">Cafe</option>
+                <option value="mountains">Mountains</option>
+                <option value="studytable">Study Table</option>
+            </select>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <input type="date" id="taskDate">
+            <button id="addBtn">➕ Add</button>
+            <button id="clearCompletedBtn">🧹 Clear Completed</button>
+        </div>
+
+        <div class="summary-box">
+            <div class="summary-card">
+                <h3>⏳ Pending</h3>
+                <div id="pendingTasks"></div>
+            </div>
+
+            <div class="summary-card">
+                <h3>✅ Completed</h3>
+                <div id="completedTasks"></div>
+            </div>
+        </div>
+
+        <h2>📝 Daily Tasks</h2>
+        <div id="taskSections"></div>
+
+        <h2>📅 Weekly Progress</h2>
+        <div id="progressBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
