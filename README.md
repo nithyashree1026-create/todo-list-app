@@ -30,3 +30,6 @@ A beautifully designed To-Do List web application with theme customization, date
 ---
 
 ## 📸 Project Structure
+
+## 📌 Status
+This project is completed and deployed successfully.
