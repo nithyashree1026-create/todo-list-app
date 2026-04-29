@@ -1,4 +1,4 @@
-<img width="1911" height="1021" alt="image" src="https://github.com/user-attachments/assets/3d304ee3-8862-4867-a004-ffc36c798d8d" /># ✨ Aesthetic To-Do List
+## ✨ Aesthetic To-Do List
 
 A beautifully designed To-Do List web application with theme customization, date-wise task management, and weekly progress tracking.
 
@@ -43,5 +43,5 @@ This project is completed and deployed successfully.
 - Deployed using Netlify
 
 ## 🙋‍♀️ Author
-Made with ❤️ by Nithya
+Nithya
 
